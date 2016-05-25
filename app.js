@@ -52,7 +52,7 @@ MongoClient.connect("mongodb://52.40.118.116:27017,52.33.167.196:27017,52.40.35.
 		      if (err) {
 		          console.log(err);
 		        } else {
-		          console.log('Inserted documents into the "users" collection. The documents inserted with "_id" are:', result.length, result);
+		          console.log('Inserted documents into the "users" collection.');
 		        }
 		        //Close connection
 		        //db.close();
